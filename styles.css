@@ -1,0 +1,144 @@
+html {
+	box-sizing: border-box;
+	font-family: arial;
+	background-color: white;
+}
+*, *:before, *:after
+{
+	box-sizing: inherit;
+}
+
+.phone-container {
+	margin:0px auto;
+	width: 600px;
+	height: 930px;
+	background-color: green;
+	background-image: url("https://toolookinc.com/assets/iphone_black-8bf59863a0e1139cfa61e5d513712a09e262e72171a4b337d5a8cf4174fea1ed.png");
+	background-size: 600px 930px;
+	background-repeat: no-repeat;
+  /*background-position: -245px -942px;*/
+  padding: 80px 40px;
+}
+
+.container {
+	height: 722px;
+	max-width: 600px;
+	width: 500px;
+	position: relative;
+	overflow-y: scroll;
+	background-color: #fff;
+}
+.header {
+	height: 50x;
+	background-color: #eee;
+	border-bottom: 1px solid #ddd;
+	z-index: 3;
+	position: relative;
+}
+.header p {
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	padding-left:10px;
+	font-size: 14px;
+
+.header h6{
+	padding:0;
+	margin:0;
+	padding-top:5;
+	padding-left: 10px;
+	color:#333;
+	font-size: 14px;
+	text-align:center;
+
+	float: left;
+}
+.chats{
+	width: 330px;
+	display:block;
+	height: 480px;
+	list-style: none;
+	padding: 10px;
+	position:absolute;
+	botton: 50px;
+	tranistion-botton: 0.2s;
+	overflow-y: scroll;
+}
+.clear {
+	clear:both;
+}
+
+li {
+	max-width: 70%;
+	display: block;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 3px;
+	opacity:1;
+	transition: all 0.5s;
+	word-wrap: breakp;
+	font-size: 15px;
+	position: relative;
+}
+li:after {
+	content:"";
+	position: absolute;
+	top:15px;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45eg);
+
+}
+.chats-right {
+	float: right;
+	margin-left:30%;
+	text-align:right;
+	background-color: #59f;
+	color:#fff;
+
+}
+.chats-right: after{
+	right:-3px;
+	background-color: #59f;
+}
+.chats-left{
+	float:left;
+	text-align:left;
+	margin-right:30%;
+	margin-left: 40px;
+	background-color: #eee;
+	color:#333;
+}
+.chats-left:after{
+	left:-3px;
+	background-color: #eee;
+}
+.chats-left: before{
+	content:"";
+	background-image: url(http://placehold.it/30x30);
+	position:absolute;
+	top:5px;
+	left:-40px;
+	width: 30px;
+	height: 30px;
+}
+.pre{
+	opacity:0;
+
+.chats-right.pre{
+	margin-right: 50px;
+	margin-left: 0;
+
+}
+.chats-left.pre{
+	margin-left: 100px;
+	margin-right: 10%;
+}
+
+input {
+	position: absolute;
+	bottom:0;
+	left:0:
+	width:100%;
+	background-color: #ccc;
+}
